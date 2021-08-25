@@ -1,0 +1,57 @@
+{
+    "name": "web",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@vueform/multiselect": "^2.1.2",
+        "axios": "^0.21.1",
+        "boxicons": "^2.0.9",
+        "bulma": "^0.9.3",
+        "bulma-extensions": "^6.2.7",
+        "core-js": "^3.16.3",
+        "jquery": "^3.6.0",
+        "mitt": "^3.0.0",
+        "moment": "^2.29.1",
+        "mosha-vue-toastify": "^1.0.20",
+        "nprogress": "^0.2.0",
+        "vee-validate": "^4.4.0",
+        "vue": "^3.2.4",
+        "vue-router": "^4.0.8",
+        "vue-simple-alert": "^1.1.1",
+        "vuetify": "^3.0.0-alpha.5",
+        "yup": "^0.32.9"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.13",
+        "@vue/cli-plugin-eslint": "~4.5.13",
+        "@vue/cli-service": "~4.5.13",
+        "@vue/compiler-sfc": "^3.2.6",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-vue": "^7.16.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/vue3-essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
