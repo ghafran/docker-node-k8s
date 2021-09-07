@@ -1,27 +1,28 @@
 {
-    "name": "library",
-    "version": "1.0.0",
-    "description": "",
-    "license": "ISC",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "@google-cloud/text-to-speech": "^3.3.0",
-        "aws-sdk": "^2.975.0",
-        "bcryptjs": "^2.4.3",
-        "bluebird": "^3.7.2",
-        "ejs": "^3.1.6",
-        "got": "^11.8.2",
-        "lodash": "^4.17.21",
-        "moment": "^2.29.1",
-        "nodemailer": "^6.6.3",
-        "pg": "^8.7.1",
-        "shelljs": "^0.8.4",
-        "stripe": "^8.170.0",
-        "twilio": "^3.67.0",
-        "validate.js": "^0.13.1",
-        "yesql": "^5.0.0"
-    }
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^3.3.0",
+    "aws-sdk": "^2.983.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "got": "^11.8.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.7.1",
+    "shelljs": "^0.8.4",
+    "stripe": "^8.174.0",
+    "twilio": "^3.67.1",
+    "validate.js": "^0.13.1",
+    "yesql": "^5.0.0"
+  }
 }

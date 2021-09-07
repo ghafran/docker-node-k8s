@@ -1,26 +1,26 @@
 {
-    "name": "app",
-    "version": "1.0.0",
-    "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "bluebird": "^3.7.2",
-        "body-parser": "^1.19.0",
-        "compression": "^1.7.4",
-        "cookie-parser": "^1.4.5",
-        "cors": "^2.8.5",
-        "dotenv": "^10.0.0",
-        "ejs": "^3.1.6",
-        "express": "^4.17.1",
-        "lodash": "^4.17.21",
-        "moment": "^2.29.1",
-        "response-time": "^2.3.2",
-        "saml2-js": "^3.0.1",
-        "twilio": "^3.67.0"
-    }
+  "name": "portal-api",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "response-time": "^2.3.2",
+    "saml2-js": "^3.0.1",
+    "twilio": "^3.67.1"
+  }
 }
