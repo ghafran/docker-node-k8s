@@ -15,10 +15,10 @@ COPY ./library/package.json /node/library/package.json
 COPY ./web/package.json /node/web/package.json
 
 WORKDIR "/node/app"
-RUN yarn install --production --network-timeout 100000
+RUN yarn install --network-timeout 100000
 
 WORKDIR "/node/library"
-RUN yarn install --production --network-timeout 100000
+RUN yarn install --network-timeout 100000
 
 WORKDIR "/node/web"
-RUN yarn install --production --network-timeout 100000
+RUN yarn install --network-timeout 100000
