@@ -1,9 +1,4 @@
-FROM alpine:3.14.2
-
-ENV NODE_ENV production
-
-RUN apk add nodejs-current npm
-RUN npm install -g yarn
+FROM node:latest
 RUN npm install -g forever
 
 RUN mkdir -p /node/app
