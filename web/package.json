@@ -24,6 +24,7 @@
         "moment": "^2.29.1",
         "mosha-vue-toastify": "^1.0.23",
         "nprogress": "^0.2.0",
+        "qrcode": "^1.4.4",
         "twilio-client": "^1.14.0",
         "vee-validate": "^4.4.0",
         "vosk-browser": "^0.0.5",
