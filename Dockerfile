@@ -1,7 +1,5 @@
 FROM alpine:3.14.2
 
-ENV NODE_ENV production
-
 RUN apk add nodejs-current npm
 RUN npm install -g yarn
 RUN npm install -g forever
