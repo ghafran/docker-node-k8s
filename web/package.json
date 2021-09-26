@@ -14,7 +14,7 @@
         "axios": "^0.21.4",
         "boxicons": "^2.0.9",
         "bulma": "^0.9.3",
-        "bulma-calendar": "^6.1.12",
+        "bulma-calendar": "^6.1.13",
         "bulma-extensions": "^6.2.7",
         "bulma-tooltip": "^3.0.2",
         "core-js": "^3.18.0",
@@ -39,7 +39,7 @@
         "@vue/cli-plugin-babel": "~4.5.13",
         "@vue/cli-plugin-eslint": "~4.5.13",
         "@vue/cli-service": "~4.5.13",
-        "@vue/compiler-sfc": "^3.2.12",
+        "@vue/compiler-sfc": "^3.2.19",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.32.0",
         "eslint-plugin-vue": "^7.18.0"
