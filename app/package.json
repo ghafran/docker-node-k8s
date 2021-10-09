@@ -22,6 +22,6 @@
     "moment": "^2.29.1",
     "response-time": "^2.3.2",
     "saml2-js": "^3.0.1",
-    "twilio": "^3.68.0"
+    "twilio": "^3.69.0"
   }
 }
