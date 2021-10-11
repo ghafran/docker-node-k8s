@@ -12,6 +12,7 @@
         "@vueform/multiselect": "^2.2.0",
         "@vueform/slider": "^2.0.5",
         "axios": "^0.22.0",
+        "bowser": "^2.11.0",
         "boxicons": "^2.0.9",
         "bulma": "^0.9.3",
         "bulma-calendar": "^6.1.13",
@@ -32,6 +33,7 @@
         "vue-paycard": "^0.6.0",
         "vue-router": "^4.0.8",
         "vue-simple-alert": "^1.1.1",
+        "vue3-datepicker": "^0.2.5",
         "vuetify": "^3.0.0-alpha.5",
         "yup": "^0.32.9"
     },
