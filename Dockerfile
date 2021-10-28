@@ -8,11 +8,13 @@ RUN mkdir -p /node/app
 RUN mkdir -p /node/library
 RUN mkdir -p /node/web
 RUN mkdir -p /node/device
+RUN mkdir -p /node/devices
 
 COPY ./app/package.json /node/app/package.json
 COPY ./library/package.json /node/library/package.json
 COPY ./web/package.json /node/web/package.json
 COPY ./device/package.json /node/device/package.json
+COPY ./devices/package.json /node/devices/package.json
 
 WORKDIR "/node/app"
 RUN yarn install --network-timeout 100000
@@ -24,4 +26,7 @@ WORKDIR "/node/web"
 RUN yarn install --network-timeout 100000
 
 WORKDIR "/node/device"
+RUN yarn install --network-timeout 100000
+
+WORKDIR "/node/devices"
 RUN yarn install --network-timeout 100000
