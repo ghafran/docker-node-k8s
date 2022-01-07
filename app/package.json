@@ -10,18 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.1",
     "compression": "^1.7.4",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "helmet": "^4.6.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "response-time": "^2.3.2",
     "saml2-js": "^3.0.1",
-    "twilio": "^3.71.1"
+    "twilio": "^3.72.0"
   }
 }
