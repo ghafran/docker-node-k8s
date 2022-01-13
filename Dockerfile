@@ -2,7 +2,7 @@ FROM alpine:3.15.0
 
 RUN apk add nodejs-current npm
 RUN npm install -g yarn
-RUN npm install -g forever
+RUN npm install -g nodemon
 
 RUN mkdir -p /node/app
 RUN mkdir -p /node/library
