@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@google-cloud/text-to-speech": "^3.4.0",
-    "aws-sdk": "^2.1055.0",
+    "aws-sdk": "^2.1058.0",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
-    "dotenv": "^11.0.0",
+    "dotenv": "^14.1.0",
     "ejs": "^3.1.6",
     "got": "11.8.2",
     "lodash": "^4.17.21",
@@ -20,8 +20,8 @@
     "nodemailer": "^6.7.2",
     "pg": "^8.7.1",
     "shelljs": "^0.8.5",
-    "stripe": "^8.195.0",
-    "twilio": "^3.72.0",
+    "stripe": "^8.197.0",
+    "twilio": "^3.73.0",
     "validate.js": "^0.13.1",
     "yesql": "^5.0.0"
   }
