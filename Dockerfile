@@ -22,6 +22,7 @@ RUN mkdir -p /node/portal-web
 RUN mkdir -p /node/pubsub-api
 RUN mkdir -p /node/status
 RUN mkdir -p /node/workers
+RUN mkdir -p /node/helper
 
 COPY ./library/package.json /node/library/package.json
 COPY ./admin-api/package.json /node/admin-api/package.json
@@ -41,6 +42,7 @@ COPY ./portal-web/package.json /node/portal-web/package.json
 COPY ./pubsub-api/package.json /node/pubsub-api/package.json
 COPY ./status/package.json /node/status/package.json
 COPY ./workers/package.json /node/workers/package.json
+COPY ./helper/package.json /node/helper/package.json
 
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
