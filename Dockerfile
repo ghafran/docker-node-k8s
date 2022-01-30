@@ -78,3 +78,5 @@ WORKDIR "/node/status"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/workers"
 RUN yarn install --network-timeout 100000
+WORKDIR "/node/helper"
+RUN yarn install --network-timeout 100000
