@@ -36,7 +36,7 @@ COPY ./devices-os/package.json /node/devices-os/package.json
 COPY ./integration-api/package.json /node/integration-api/package.json
 COPY ./meeting-api/package.json /node/meeting-api/package.json
 COPY ./partner-api/package.json /node/partner-api/package.json
-COPY ./portal-web/package.json /node/portal-web/package.json
+COPY ./partner-web/package.json /node/partner-web/package.json
 COPY ./portal-api/package.json /node/portal-api/package.json
 COPY ./portal-web/package.json /node/portal-web/package.json
 COPY ./pubsub-api/package.json /node/pubsub-api/package.json
