@@ -12,7 +12,7 @@ RUN mkdir -p /node/cron
 RUN mkdir -p /node/database
 RUN mkdir -p /node/devices-api
 RUN mkdir -p /node/devices-web
-RUN mkdir -p /node/device-os
+RUN mkdir -p /node/devices-os
 RUN mkdir -p /node/integration-api
 RUN mkdir -p /node/meeting-api
 RUN mkdir -p /node/partner-api
@@ -31,7 +31,7 @@ COPY ./cron/package.json /node/cron/package.json
 COPY ./database/package.json /node/database/package.json
 COPY ./devices-api/package.json /node/devices-api/package.json
 COPY ./devices-web/package.json /node/devices-web/package.json
-COPY ./device-os/package.json /node/device-os/package.json
+COPY ./devices-os/package.json /node/devices-os/package.json
 COPY ./integration-api/package.json /node/integration-api/package.json
 COPY ./meeting-api/package.json /node/meeting-api/package.json
 COPY ./partner-api/package.json /node/partner-api/package.json
