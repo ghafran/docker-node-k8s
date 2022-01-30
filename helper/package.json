@@ -1,18 +1,4 @@
 {
-    "name": "admin-api",
-    "version": "1.0.0",
-    "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@bitbucket.org/vitalcode/admin-api.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "homepage": "https://bitbucket.org/vitalcode/admin-api#readme",
     "dependencies": {
         "bluebird": "^3.7.2",
         "body-parser": "^1.19.0",
