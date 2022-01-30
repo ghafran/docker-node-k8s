@@ -60,7 +60,7 @@ WORKDIR "/node/devices-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-web"
 RUN yarn install --network-timeout 100000
-WORKDIR "/node/device-os"
+WORKDIR "/node/devices-os"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/integration-api"
 RUN yarn install --network-timeout 100000
