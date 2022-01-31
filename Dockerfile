@@ -48,8 +48,8 @@ WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
 RUN yarn install --network-timeout 100000
-WORKDIR "/node/admin-web"
-RUN yarn install --network-timeout 100000
+# WORKDIR "/node/admin-web"
+# RUN yarn install --network-timeout 100000
 WORKDIR "/node/blob-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/cron"
@@ -58,8 +58,8 @@ WORKDIR "/node/database"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-api"
 RUN yarn install --network-timeout 100000
-WORKDIR "/node/devices-web"
-RUN yarn install --network-timeout 100000
+# WORKDIR "/node/devices-web"
+# RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-os"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/integration-api"
@@ -68,12 +68,12 @@ WORKDIR "/node/meeting-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/partner-api"
 RUN yarn install --network-timeout 100000
-WORKDIR "/node/partner-web"
-RUN yarn install --network-timeout 100000
+# WORKDIR "/node/partner-web"
+# RUN yarn install --network-timeout 100000
 WORKDIR "/node/portal-api"
 RUN yarn install --network-timeout 100000
-WORKDIR "/node/portal-web"
-RUN yarn install --network-timeout 100000
+# WORKDIR "/node/portal-web"
+# RUN yarn install --network-timeout 100000
 WORKDIR "/node/pubsub-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/status"
