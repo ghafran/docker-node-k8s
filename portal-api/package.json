@@ -23,6 +23,7 @@
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "newrelic": "^8.7.1",
+    "node-nlp": "^4.22.18",
     "response-time": "^2.3.2",
     "saml2-js": "^3.0.1",
     "twilio": "^3.73.0"
