@@ -8,27 +8,32 @@
         "lint": "./node_modules/.bin/ue-cli-service lint"
     },
     "dependencies": {
-        "@vueform/multiselect": "^2.3.1",
-        "axios": "^0.24.0",
+        "@vueform/multiselect": "^2.3.3",
+        "axios": "^0.26.1",
         "bowser": "^2.11.0",
-        "boxicons": "^2.1.1",
+        "boxicons": "^2.1.2",
         "bulma": "^0.9.3",
         "bulma-extensions": "^6.2.7",
-        "core-js": "^3.20.3",
+        "core-js": "^3.21.1",
         "jquery": "^3.6.0",
         "mitt": "^3.0.0",
         "moment": "^2.29.1",
         "mosha-vue-toastify": "^1.0.23",
         "nprogress": "^0.2.0",
-        "vee-validate": "^4.4.0",
-        "vue": "^3.2.27",
-        "vue-router": "^4.0.8",
+        "vee-validate": "^4.5.10",
+        "vue": "^3.2.31",
+        "vue-router": "^4.0.14",
         "vue-simple-alert": "^1.1.1",
-        "vue3-datepicker": "^0.3.1",
+        "vue3-datepicker": "^0.3.2",
         "vue3-editor": "^0.1.0-alpha.3",
         "vuetify": "^3.0.0-alpha.12",
         "yup": "^0.32.11",
-        "vue3-popper": "^1.1.0"
+<<<<<<< HEAD
+        "vue3-popper": "^1.1.0",
+        "vue-cropperjs":"^5.0.0"
+=======
+        "vue3-popper": "^1.4.2"
+>>>>>>> master
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~4.5.15",

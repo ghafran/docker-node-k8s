@@ -4,15 +4,15 @@
     "description": "",
     "dependencies": {
         "@wmfs/pg-diff-sync": "^1.25.0",
-        "aws-sdk": "^2.1058.0",
+        "aws-sdk": "^2.1097.0",
         "bluebird": "^3.7.2",
-        "dotenv": "^14.1.0",
+        "dotenv": "^16.0.0",
         "fast-csv": "^4.3.6",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
-        "pg": "^8.7.1",
+        "pg": "^8.7.3",
         "pg-info-cockroachdb": "^0.0.4",
-        "yargs": "^17.3.1",
+        "yargs": "^17.4.0",
         "yesql": "^5.0.0"
     },
     "scripts": {
