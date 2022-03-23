@@ -8,6 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@google-cloud/automl": "^2.5.2",
+    "@google-cloud/storage": "^5.18.2",
     "@google-cloud/text-to-speech": "^3.4.0",
     "aws-sdk": "^2.1097.0",
     "axios": "^0.26.1",
@@ -24,10 +26,6 @@
     "stripe": "^8.210.0",
     "twilio": "^3.75.1",
     "validate.js": "^0.13.1",
-    "yesql": "^5.0.0",
-    "@google-cloud/automl":"^2.5.2",
-    "@google-cloud/storage":"^5.18.2"
-
-
+    "yesql": "^5.0.0"
   }
 }
