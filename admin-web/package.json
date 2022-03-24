@@ -28,8 +28,7 @@
         "vue3-editor": "^0.1.0-alpha.3",
         "vuetify": "^3.0.0-alpha.12",
         "yup": "^0.32.11",
-        "vue3-popper": "^1.4.2",
-        "vue-cropperjs":"^5.0.0"
+        "vue3-popper": "^1.4.2"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~4.5.15",
