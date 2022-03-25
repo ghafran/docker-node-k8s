@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@google-cloud/text-to-speech": "^3.4.0",
-    "aws-sdk": "^2.1097.0",
+    "aws-sdk": "^2.1100.0",
     "axios": "^0.26.1",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
@@ -20,9 +20,9 @@
     "nodemailer": "^6.7.3",
     "pg": "^8.7.3",
     "shelljs": "^0.8.5",
-    "stripe": "^8.210.0",
+    "stripe": "^8.211.0",
     "translate": "^1.4.1",
-    "twilio": "^3.75.1",
+    "twilio": "^3.76.0",
     "validate.js": "^0.13.1",
     "yesql": "^5.0.0"
   }

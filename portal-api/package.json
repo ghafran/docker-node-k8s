@@ -24,10 +24,10 @@
     "helmet": "^5.0.2",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "newrelic": "^8.9.0",
+    "newrelic": "^8.9.1",
     "node-nlp": "^4.23.2",
     "response-time": "^2.3.2",
     "saml2-js": "^3.0.1",
-    "twilio": "^3.75.1"
+    "twilio": "^3.76.0"
   }
 }
