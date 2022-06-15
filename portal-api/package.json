@@ -11,6 +11,7 @@
   "dependencies": {
     "@google-cloud/automl": "^2.5.2",
     "@google-cloud/storage": "^6.0.1",
+    "bitwise-xor": "^0.0.0",
     "bluebird": "^3.7.2",
     "body-parser": "^1.20.0",
     "compression": "^1.7.4",
