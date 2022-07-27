@@ -8,6 +8,8 @@
         "lint": "./node_modules/.bin/vue-cli-service lint"
     },
     "dependencies": {
+		"vue-class-component": "^8.0.0-rc.1",
+        "@types/source-map": "^0.5.7",
         "@vueform/multiselect": "^2.4.2",
         "@vueform/slider": "^2.0.10",
         "axios": "^0.27.2",
@@ -24,6 +26,7 @@
         "moment": "^2.29.3",
         "mosha-vue-toastify": "^1.0.23",
         "nprogress": "^0.2.0",
+        "qrcode": "^1.5.0",
         "twilio-client": "^1.14.0",
         "vee-validate": "^4.5.11",
         "vosk-browser": "^0.0.7",
