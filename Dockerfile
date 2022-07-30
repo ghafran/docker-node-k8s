@@ -32,14 +32,14 @@ COPY ./blob-api/package.json /node/blob-api/package.json
 COPY ./cron/package.json /node/cron/package.json
 COPY ./database/package.json /node/database/package.json
 COPY ./devices-api/package.json /node/devices-api/package.json
-# COPY ./devices-web/package.json /node/devices-web/package.json
+COPY ./devices-web/package.json /node/devices-web/package.json
 COPY ./devices-os/package.json /node/devices-os/package.json
 COPY ./integration-api/package.json /node/integration-api/package.json
 COPY ./meeting-api/package.json /node/meeting-api/package.json
 COPY ./partner-api/package.json /node/partner-api/package.json
-# COPY ./partner-web/package.json /node/partner-web/package.json
+COPY ./partner-web/package.json /node/partner-web/package.json
 COPY ./portal-api/package.json /node/portal-api/package.json
-# COPY ./portal-web/package.json /node/portal-web/package.json
+COPY ./portal-web/package.json /node/portal-web/package.json
 COPY ./pubsub-api/package.json /node/pubsub-api/package.json
 COPY ./status/package.json /node/status/package.json
 COPY ./workers/package.json /node/workers/package.json
@@ -59,8 +59,8 @@ WORKDIR "/node/database"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-api"
 RUN yarn install --network-timeout 100000
-# WORKDIR "/node/devices-web"
-# RUN yarn install --network-timeout 100000
+WORKDIR "/node/devices-web"
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-os"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/integration-api"
@@ -69,12 +69,12 @@ WORKDIR "/node/meeting-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/partner-api"
 RUN yarn install --network-timeout 100000
-# WORKDIR "/node/partner-web"
-# RUN yarn install --network-timeout 100000
+WORKDIR "/node/partner-web"
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/portal-api"
 RUN yarn install --network-timeout 100000
-# WORKDIR "/node/portal-web"
-# RUN yarn install --network-timeout 100000
+WORKDIR "/node/portal-web"
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/pubsub-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/status"
