@@ -26,7 +26,7 @@ RUN mkdir -p /node/helper
 
 COPY ./library/package.json /node/library/package.json
 COPY ./admin-api/package.json /node/admin-api/package.json
-# COPY ./admin-web/package.json /node/admin-web/package.json
+COPY ./admin-web/package.json /node/admin-web/package.json
 COPY ./blob-api/package.json /node/blob-api/package.json
 COPY ./cron/package.json /node/cron/package.json
 COPY ./database/package.json /node/database/package.json
@@ -48,8 +48,8 @@ WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
 RUN yarn install --network-timeout 100000
-# WORKDIR "/node/admin-web"
-# RUN yarn install --network-timeout 100000
+WORKDIR "/node/admin-web"
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/blob-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/cron"
