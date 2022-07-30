@@ -3,6 +3,7 @@ FROM alpine:3.16.1
 RUN apk add nodejs-current npm
 RUN npm install -g yarn
 RUN npm install -g nodemon
+RUN npm install -g vue@latest
 
 RUN mkdir -p /node/library
 RUN mkdir -p /node/admin-api
