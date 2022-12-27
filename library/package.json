@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@google-cloud/automl": "^3.1.2",
-    "@google-cloud/storage": "^6.7.0",
-    "@google-cloud/text-to-speech": "^4.0.4",
-    "aws-sdk": "^2.1264.0",
-    "axios": "^1.2.0",
+    "@google-cloud/storage": "^6.8.0",
+    "@google-cloud/text-to-speech": "^4.1.0",
+    "aws-sdk": "^2.1282.0",
+    "axios": "^1.2.1",
     "bcryptjs": "^2.4.3",
     "bitwise-xor": "^0.0.0",
     "bluebird": "^3.7.2",
@@ -25,9 +25,9 @@
     "nodemailer": "^6.8.0",
     "pg": "^8.8.0",
     "shelljs": "^0.8.5",
-    "stripe": "^11.1.0",
+    "stripe": "^11.5.0",
     "translate": "^1.4.1",
-    "twilio": "^3.83.3",
+    "twilio": "^3.84.0",
     "validate.js": "^0.13.1",
     "yesql": "^5.0.0"
   }
