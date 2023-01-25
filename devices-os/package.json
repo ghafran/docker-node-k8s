@@ -16,6 +16,7 @@
         "mitt": "^3.0.0",
         "modclean": "^3.0.0-beta.1",
         "moment": "^2.29.4",
+        "moment-timezone": "^0.5.40",
         "parse-key-value": "^1.0.0",
         "serialport": "^10.5.0",
         "shelljs": "^0.8.5",
