@@ -9,8 +9,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@google-cloud/automl": "^3.1.2",
-        "@google-cloud/storage": "^6.9.1",
         "bluebird": "^3.7.2",
         "body-parser": "^1.20.1",
         "compression": "^1.7.4",
@@ -25,6 +23,6 @@
         "lodash": "^4.17.21",
         "mime-db": "^1.52.0",
         "moment": "^2.29.4",
-        "ws": "^8.12.0"
+        "ws": "^8.12.1"
     }
 }

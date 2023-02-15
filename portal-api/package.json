@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/automl": "^3.1.2",
-    "@google-cloud/storage": "^6.9.1",
     "bitwise-xor": "^0.0.0",
     "bluebird": "^3.7.2",
     "body-parser": "^1.20.1",
@@ -27,10 +25,10 @@
     "helmet": "^6.0.1",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
-    "newrelic": "^9.8.1",
+    "newrelic": "^9.10.1",
     "node-nlp": "^4.26.1",
     "response-time": "^2.3.2",
     "saml2-js": "^4.0.1",
-    "twilio": "^4.0.0"
+    "twilio": "^4.7.2"
   }
 }
