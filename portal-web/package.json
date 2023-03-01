@@ -33,7 +33,7 @@
         "vosk-browser": "^0.0.8",
         "vue": "^3.2.47",
         "vue-audio-recorder": "^3.0.1",
-        "vue-chartjs": "^5.2.0",
+        "vue-chartjs": "^5.0.0",
         "vue-class-component": "^8.0.0-rc.1",
         "vue-paycard": "^0.7.0",
         "vue-router": "^4.1.6",
