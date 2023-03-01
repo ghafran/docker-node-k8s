@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "bluebird": "^3.7.2",
-        "body-parser": "^1.20.1",
+        "body-parser": "^1.20.2",
         "compression": "^1.7.4",
         "cookie-parser": "^1.4.6",
         "cors": "^2.8.5",
@@ -14,7 +14,7 @@
         "helmet": "^6.0.1",
         "lodash": "^4.17.21",
         "moment": "^2.29.4",
-        "moment-timezone": "^0.5.40"
+        "moment-timezone": "^0.5.41"
     },
     "scripts": {}
 }
