@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/aiplatform": "^2.7.0",
+    "@google-cloud/aiplatform": "^2.8.0",
     "@google-cloud/automl": "^3.1.2",
-    "@google-cloud/storage": "^6.9.3",
+    "@google-cloud/storage": "^6.9.4",
     "archiver": "^5.3.1",
     "bluebird": "^3.7.2",
     "body-parser": "^1.20.2",
@@ -20,7 +20,7 @@
     "cors": "^2.8.5",
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-rate-limit": "^6.7.0",
     "fs-extra": "^11.1.0",
@@ -29,8 +29,8 @@
     "jimp": "^0.22.7",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
-    "pg": "^8.9.0",
-    "ws": "^8.12.1",
+    "pg": "^8.10.0",
+    "ws": "^8.13.0",
     "yesql": "^5.0.0"
   }
 }
