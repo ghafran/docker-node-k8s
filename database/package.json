@@ -4,11 +4,7 @@
     "description": "",
     "dependencies": {
         "@wmfs/pg-diff-sync": "^1.27.0",
-<<<<<<< HEAD
         "@aws-sdk/client-s3": "^3.272.0",
-=======
-        "aws-sdk": "^2.1325.0",
->>>>>>> master
         "bluebird": "^3.7.2",
         "dotenv": "^16.0.3",
         "fast-csv": "^4.3.6",
