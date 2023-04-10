@@ -3,17 +3,17 @@
     "version": "1.0.0",
     "description": "",
     "dependencies": {
-        "@wmfs/pg-diff-sync": "^1.27.0",
-        "@aws-sdk/client-s3": "^3.272.0",
+        "@wmfs/pg-diff-sync": "^1.29.0",
+        "@aws-sdk/client-s3": "^3.306.0",
         "bluebird": "^3.7.2",
         "dotenv": "^16.0.3",
         "fast-csv": "^4.3.6",
         "lodash": "^4.17.21",
         "moment": "^2.29.4",
-        "pg": "^8.9.0",
+        "pg": "^8.10.0",
         "pg-info-cockroachdb": "^0.0.6",
         "yargs": "^17.7.1",
-        "yesql": "^5.0.0"
+        "yesql": "^6.1.0"
     },
     "scripts": {
         "db_setup": "node /srv/setup.js && node /srv/data.js && node /srv/seed.js prod.sql",
