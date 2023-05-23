@@ -22,6 +22,7 @@
         "serialport": "^11.0.0",
         "shelljs": "^0.8.5",
         "simple-node-logger": "^21.8.12",
+        "usb-detection": "^4.14.2",
         "uuid": "^9.0.0",
         "ws": "^8.13.0"
     }
