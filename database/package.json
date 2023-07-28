@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "@wmfs/pg-diff-sync": "^1.31.0",
-        "@aws-sdk/client-s3": "^3.370.0",
+        "@aws-sdk/client-s3": "^3.379.1",
         "bluebird": "^3.7.2",
         "dotenv": "^16.3.1",
         "fast-csv": "^4.3.6",
@@ -13,7 +13,7 @@
         "pg": "^8.11.1",
         "pg-info-cockroachdb": "^0.0.6",
         "yargs": "^17.7.2",
-        "yesql": "^6.1.0"
+        "yesql": "^7.0.0"
     },
     "scripts": {
         "db_setup": "node /srv/setup.js && node /srv/data.js && node /srv/seed.js prod.sql",

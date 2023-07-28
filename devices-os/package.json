@@ -19,7 +19,7 @@
         "moment-timezone": "^0.5.43",
         "node-schedule": "^2.1.1",
         "parse-key-value": "^1.0.0",
-        "serialport": "^11.0.0",
+        "serialport": "^11.0.1",
         "shelljs": "^0.8.5",
         "simple-node-logger": "^21.8.12",
         "usb-detection": "^4.14.2",
