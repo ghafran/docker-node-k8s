@@ -4,13 +4,13 @@
     "description": "",
     "dependencies": {
         "@wmfs/pg-diff-sync": "^1.31.0",
-        "@aws-sdk/client-s3": "^3.379.1",
+        "@aws-sdk/client-s3": "^3.405.0",
         "bluebird": "^3.7.2",
         "dotenv": "^16.3.1",
         "fast-csv": "^4.3.6",
         "lodash": "^4.17.21",
         "moment": "^2.29.4",
-        "pg": "^8.11.1",
+        "pg": "^8.11.3",
         "pg-info-cockroachdb": "^0.0.6",
         "yargs": "^17.7.2",
         "yesql": "^7.0.0"
