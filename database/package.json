@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "@wmfs/pg-diff-sync": "^1.31.0",
-        "@aws-sdk/client-s3": "^3.405.0",
+        "@aws-sdk/client-s3": "^3.417.0",
         "bluebird": "^3.7.2",
         "dotenv": "^16.3.1",
         "fast-csv": "^4.3.6",
