@@ -45,9 +45,6 @@ COPY ./status/package.json /node/status/package.json
 COPY ./workers/package.json /node/workers/package.json
 COPY ./helper/package.json /node/helper/package.json
 
-WORKDIR "/node/devices-os"
-RUN sed -i '/usb-detection/d' package.json
-
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
@@ -85,3 +82,5 @@ WORKDIR "/node/workers"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/helper"
 RUN yarn install --network-timeout 100000
+WORKDIR "/node/devices-os"
+RUN sed -i '/usb-detection/d' package.json
