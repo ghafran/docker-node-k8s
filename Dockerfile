@@ -4,6 +4,7 @@ RUN apk add nodejs-current npm
 RUN npm install -g yarn
 RUN npm install -g nodemon
 RUN npm install -g vite@latest
+RUN apk add --no-cache python3 py3-pip
 
 RUN mkdir -p /node/library
 RUN mkdir -p /node/admin-api
@@ -46,7 +47,7 @@ COPY ./workers/package.json /node/workers/package.json
 COPY ./helper/package.json /node/helper/package.json
 
 WORKDIR "/node/devices-os"
-RUN yarn install --network-timeout 100000 --ignore-optional
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
