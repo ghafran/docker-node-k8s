@@ -62,7 +62,7 @@ RUN yarn install --network-timeout 100000
 # WORKDIR "/node/devices-web"
 # RUN yarn install --network-timeout 100000
 WORKDIR "/node/devices-os"
-RUN yarn install --network-timeout 100000
+RUN yarn install --network-timeout 100000 --ignore-engines
 WORKDIR "/node/integration-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/meeting-api"
