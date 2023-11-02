@@ -46,7 +46,7 @@ COPY ./workers/package.json /node/workers/package.json
 COPY ./helper/package.json /node/helper/package.json
 
 WORKDIR "/node/devices-os"
-RUN yarn remove usb-detection
+RUN sed -i '/usb-detection/d' package.json
 
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
