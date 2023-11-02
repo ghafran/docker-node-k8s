@@ -4,7 +4,7 @@ RUN apk add nodejs-current npm
 RUN npm install -g yarn
 RUN npm install -g nodemon
 RUN npm install -g vite@latest
-RUN apk add --no-cache python3 py3-pip
+RUN apk add --no-cache python3 && ln -sf python3 /usr/bin/python
 
 RUN mkdir -p /node/library
 RUN mkdir -p /node/admin-api
