@@ -5,9 +5,6 @@ RUN npm install -g yarn
 RUN npm install -g nodemon
 RUN npm install -g vite@latest
 
-RUN apk add build-base
-RUN apk add --update --no-cache python3 && ln -sf python3 /usr/bin/python
-
 RUN mkdir -p /node/library
 RUN mkdir -p /node/admin-api
 RUN mkdir -p /node/admin-web
@@ -49,7 +46,8 @@ COPY ./workers/package.json /node/workers/package.json
 COPY ./helper/package.json /node/helper/package.json
 
 WORKDIR "/node/devices-os"
-RUN yarn install --network-timeout 100000
+RUN yarn remove usb-detection
+
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
@@ -66,6 +64,7 @@ WORKDIR "/node/devices-api"
 RUN yarn install --network-timeout 100000
 # WORKDIR "/node/devices-web"
 # RUN yarn install --network-timeout 100000
+RUN yarn install --network-timeout 100000
 WORKDIR "/node/integration-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/meeting-api"
