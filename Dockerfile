@@ -45,6 +45,8 @@ COPY ./status/package.json /node/status/package.json
 COPY ./workers/package.json /node/workers/package.json
 COPY ./helper/package.json /node/helper/package.json
 
+WORKDIR "/node/devices-os"
+RUN yarn install --network-timeout 100000 --ignore-optional
 WORKDIR "/node/library"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/admin-api"
@@ -61,8 +63,6 @@ WORKDIR "/node/devices-api"
 RUN yarn install --network-timeout 100000
 # WORKDIR "/node/devices-web"
 # RUN yarn install --network-timeout 100000
-WORKDIR "/node/devices-os"
-RUN yarn install --network-timeout 100000 --ignore-engines
 WORKDIR "/node/integration-api"
 RUN yarn install --network-timeout 100000
 WORKDIR "/node/meeting-api"
