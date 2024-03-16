@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "bluebird": "^3.7.2",
-        "dotenv": "^16.3.1",
+        "dotenv": "^16.4.5",
         "ejs": "^3.1.9",
         "lodash": "^4.17.21",
         "moment": "^2.30.1"
