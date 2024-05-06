@@ -28,16 +28,16 @@
         "qrcode": "^1.5.3",
         "twilio-client": "^1.15.1",
         "v-calendar": "^3.0.0-alpha.8",
-        "vee-validate": "^4.12.6",
+        "vee-validate": "^4.12.7",
         "vosk-browser": "^0.0.8",
-        "vue": "^3.4.24",
+        "vue": "^3.4.26",
         "vue-class-component": "^8.0.0-rc.1",
         "vue-paycard": "^0.7.0",
         "vue-router": "^4.3.2",
         "vue-simple-alert": "^1.1.1",
         "vue3-datepicker": "^0.4.0",
         "vue3-popper": "^1.5.0",
-        "vuetify": "^3.5.17",
+        "vuetify": "^3.6.3",
         "webrtc-adapter": "^9.0.1",
         "yup": "^1.4.0"
     },
@@ -45,6 +45,6 @@
         "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
         "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
         "@vitejs/plugin-vue": "^5.0.4",
-        "vite": "^5.2.10"
+        "vite": "^5.2.11"
     }
 }
