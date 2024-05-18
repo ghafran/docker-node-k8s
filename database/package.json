@@ -1,0 +1,22 @@
+{
+    "name": "tasks",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "@wmfs/pg-diff-sync": "^1.31.0",
+        "@aws-sdk/client-s3": "^3.577.0",
+        "bluebird": "^3.7.2",
+        "dotenv": "^16.4.5",
+        "fast-csv": "^5.0.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.30.1",
+        "pg": "^8.11.5",
+        "pg-info-cockroachdb": "^0.0.6",
+        "yargs": "^17.7.2",
+        "yesql": "^7.0.0"
+    },
+    "scripts": {
+        "db_setup": "node /srv/setup.js && node /srv/data.js && node /srv/seed.js prod.sql",
+        "db_upgrade": "node /srv/update.js && node /srv/data.js"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "cron",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.577.0",
+        "bluebird": "^3.7.2",
+        "body-parser": "^1.20.2",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "helmet": "^7.1.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.30.1",
+        "moment-timezone": "^0.5.45"
+    },
+    "scripts": {}
+}
