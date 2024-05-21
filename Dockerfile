@@ -1,7 +1,5 @@
 FROM alpine:3.19
 
-RUN apk add python3 py3-pip
-
 RUN apk add nodejs-current npm
 RUN npm install -g yarn
 RUN npm install -g nodemon
