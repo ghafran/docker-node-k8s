@@ -18,15 +18,16 @@
         "dotenv": "^16.4.5",
         "ejs": "^3.1.10",
         "express": "^4.19.2",
-        "express-rate-limit": "^7.2.0",
+        "express-rate-limit": "^7.4.0",
         "helmet": "^7.1.0",
         "ip": "^2.0.1",
         "lodash": "^4.17.21",
         "moment": "^2.30.1",
-        "newrelic": "^11.16.0",
+        "moment-timezone": "^0.5.45",
+        "newrelic": "^11.23.2",
         "node-nlp": "^4.27.0",
-        "qs": "^6.12.1",
+        "qs": "^6.12.3",
         "response-time": "^2.3.2",
-        "ws": "^8.17.0"
+        "ws": "^8.18.0"
     }
 }
