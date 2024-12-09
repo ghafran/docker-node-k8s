@@ -53,6 +53,7 @@
 		"@esbuild-plugins/node-globals-polyfill": "^0.2.3",
 		"@esbuild-plugins/node-modules-polyfill": "^0.2.2",
 		"@vitejs/plugin-vue": "^5.2.1",
-		"vite": "^6.0.2"
-	}
+		"vite": "^6.0.3"
+	},
+	"packageManager": "yarn@1.22.22"
 }

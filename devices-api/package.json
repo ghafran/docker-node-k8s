@@ -17,7 +17,7 @@
         "date-fns": "^4.1.0",
         "dotenv": "^16.4.7",
         "ejs": "^3.1.10",
-        "express": "^4.21.1",
+        "express": "^4.21.2",
         "express-rate-limit": "^7.4.1",
         "firebase-admin": "^13.0.1",
         "helmet": "^8.0.0",
@@ -29,7 +29,7 @@
         "node-nlp": "^4.27.0",
         "qs": "^6.13.1",
         "response-time": "^2.3.3",
-        "twilio": "^5.3.6",
+        "twilio": "^5.3.7",
         "ws": "^8.18.0"
     }
 }
