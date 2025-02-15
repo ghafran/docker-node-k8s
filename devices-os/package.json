@@ -16,13 +16,13 @@
         "mitt": "^3.0.1",
         "modclean": "^3.0.0-beta.1",
         "moment": "^2.30.1",
-        "moment-timezone": "^0.5.46",
+        "moment-timezone": "^0.5.47",
         "node-schedule": "^2.1.1",
         "parse-key-value": "^1.0.0",
-        "serialport": "^12.0.0",
+        "serialport": "^13.0.0",
         "shelljs": "^0.8.5",
         "simple-node-logger": "^21.8.12",
-        "uuid": "^11.0.3",
+        "uuid": "^11.0.5",
         "ws": "^8.18.0",
         "usb": "^2.14.0"
     }
