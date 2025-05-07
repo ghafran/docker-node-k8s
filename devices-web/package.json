@@ -36,16 +36,17 @@
 		"mosha-vue-toastify": "^1.0.23",
 		"node-nlp": "^4.27.0",
 		"nprogress": "^0.2.0",
+		"qrcode": "^1.5.4",
 		"twilio-client": "^1.15.1",
 		"vee-validate": "^4.15.0",
 		"vosk-browser": "^0.0.8",
 		"vue": "^3.5.13",
+		"vue-i18n": "^11.1.0",
 		"vue-router": "^4.5.0",
 		"vue-simple-alert": "^1.1.1",
 		"vuetify": "^3.7.12",
 		"webrtc-adapter": "^9.0.1",
-		"yup": "^1.6.1",
-		"qrcode": "^1.5.4"
+		"yup": "^1.6.1"
 	},
 	"devDependencies": {
 		"@esbuild-plugins/node-globals-polyfill": "^0.2.3",
