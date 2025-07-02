@@ -2,6 +2,7 @@ FROM alpine:3.22
 
 RUN apk add sudo
 RUN apk add nodejs-current npm
+RUN apk add sudo espeak-ng
 RUN apk update && apk add build-base python3-dev libusb-dev linux-headers eudev-dev
 RUN npm install -g yarn
 RUN npm install -g nodemon
